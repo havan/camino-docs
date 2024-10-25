@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: Partner Showroom
-description: Partners and Partner Showroom
+description: Partner Showroom
 ---
 
 # Partners and Partner Showroom

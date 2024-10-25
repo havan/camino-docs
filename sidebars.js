@@ -107,12 +107,12 @@ const sidebars = {
     },
     {
       type: "category",
-      label: "Partner Showroom",
+      label: "Partners",
       collapsible: true,
       collapsed: true,
       link: {
         type: 'generated-index',
-        slug: '/partner-showroom',
+        slug: '/partners/partner-showroom',
       },
       items: [
         {
