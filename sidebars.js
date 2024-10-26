@@ -26,8 +26,8 @@ const sidebars = {
       collapsible: true,
       collapsed: false,
       link: {
-        type: 'generated-index',
-        slug: '/about',
+        type: "generated-index",
+        slug: "/about",
       },
       items: [
         {
@@ -35,9 +35,9 @@ const sidebars = {
           dirName: "about",
         },
         {
-          type: 'link',
-          label: 'Whitepaper',
-          href: 'https://camino.network/static/docs/Camino_Network_Whitepaper.pdf'
+          type: "link",
+          label: "Whitepaper",
+          href: "https://camino.network/static/docs/Camino_Network_Whitepaper.pdf",
         },
       ],
     },
@@ -47,8 +47,8 @@ const sidebars = {
       collapsible: true,
       collapsed: false,
       link: {
-        type: 'generated-index',
-        slug: '/guides',
+        type: "generated-index",
+        slug: "/guides",
       },
       items: [
         {
@@ -63,8 +63,8 @@ const sidebars = {
       collapsible: true,
       collapsed: true,
       link: {
-        type: 'generated-index',
-        slug: '/validator-guides',
+        type: "generated-index",
+        slug: "/validator-guides",
       },
       items: [
         {
@@ -79,8 +79,8 @@ const sidebars = {
       collapsible: true,
       collapsed: true,
       link: {
-        type: 'generated-index',
-        slug: '/camino-node',
+        type: "generated-index",
+        slug: "/camino-node",
       },
       items: [
         {
@@ -95,8 +95,8 @@ const sidebars = {
       collapsible: true,
       collapsed: true,
       link: {
-        type: 'generated-index',
-        slug: '/camino-messenger',
+        type: "generated-index",
+        slug: "/camino-messenger",
       },
       items: [
         {
@@ -111,8 +111,8 @@ const sidebars = {
       collapsible: true,
       collapsed: true,
       link: {
-        type: 'generated-index',
-        slug: '/partners/partner-showroom',
+        type: "generated-index",
+        slug: "/partners",
       },
       items: [
         {
@@ -127,8 +127,8 @@ const sidebars = {
       collapsible: true,
       collapsed: false,
       link: {
-        type: 'generated-index',
-        slug: '/developer',
+        type: "generated-index",
+        slug: "/developer",
       },
       items: [
         {
@@ -151,8 +151,8 @@ const sidebars = {
           collapsible: true,
           collapsed: true,
           link: {
-            type: 'generated-index',
-            slug: '/developer/subnets',
+            type: "generated-index",
+            slug: "/developer/subnets",
           },
           items: [
             {
@@ -197,8 +197,8 @@ const sidebars = {
       collapsible: true,
       collapsed: false,
       link: {
-        type: 'generated-index',
-        slug: '/faq',
+        type: "generated-index",
+        slug: "/faq",
       },
       items: [
         {
@@ -206,15 +206,15 @@ const sidebars = {
           dirName: "faq",
         },
       ],
-    },    
+    },
     {
       type: "category",
       label: "Release Notes",
       collapsible: true,
       collapsed: true,
       link: {
-        type: 'generated-index',
-        slug: '/release-notes',
+        type: "generated-index",
+        slug: "/release-notes",
       },
       items: [
         {
@@ -222,7 +222,7 @@ const sidebars = {
           dirName: "release-notes",
         },
       ],
-    },    
+    },
   ],
 };
 
