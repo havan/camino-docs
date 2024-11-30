@@ -9,6 +9,21 @@ description: This document describes how to use Remix IDE to query KYC/KYB State
 This document provides a guide on how to use [Remix IDE](https://remix.ethereum.org/) to query the KYC/KYB States of
 an address on C-Chain. Follow the steps below to accomplish this.
 
+:::tip UPDATE: NEW REPOSITORY!
+
+### Camino Builder: KYC Examples
+
+The Camino Builder repository provides a complete guide on implementing KYC verification in your contracts, with:
+
+- Contract examples
+- Interface for the Camino Admin contract
+- Step-by-step deployment guide
+- Testing scripts for both verified and unverified wallets
+
+Check out the KYC implementation guide: [Camino Builder KYC Section](https://github.com/chain4travel/camino-builder/tree/c4t/kyc)
+
+:::
+
 ## Prerequisites
 
 - MetaMask installation and functionality
