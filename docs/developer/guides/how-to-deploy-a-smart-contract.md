@@ -8,6 +8,32 @@ description: This guide explains the process of deploying a Smart Contract on th
 
 This guide provides instructions on deploying a sample ERC20 smart contract on the Columbus test network.
 
+:::tip UPDATE: NEW REPOSITORY!
+
+## Camino Builder: Your Gateway to Smart Contract Development
+
+The [Camino Builder repository](https://github.com/chain4travel/camino-builder) is
+your comprehensive guide to developing smart contracts on Camino Network's C-Chain.
+Perfect for both beginners and experienced developers, it offers:
+
+- **Step-by-Step Tutorials** for creating NFTs, token-gated access, KYC-compliant
+  contracts, tokens, and staking systems
+- **Ready-to-Use Project Template** with pre-configured Hardhat setup
+- **Security Best Practices** and challenge exercises
+- **Testing Frameworks** and guides for writing robust tests
+- **Detailed Theory Sections** to understand the underlying concepts
+- **Front-end Integration** guides to build complete dApps
+
+Whether you're building the next travel industry innovation or learning blockchain
+development, Camino Builder provides all the tools and knowledge you need to get
+started.
+
+Repository: https://github.com/chain4travel/camino-builder
+
+Get support on [Discord #tech-support](https://discord.com/channels/949247897688494150/959050296263323668) channel!
+
+:::
+
 ## Requirements
 
 - **KYC-verified wallet:** Only KYC-verified accounts are allowed to deploy smart contracts on the Camino Network.
