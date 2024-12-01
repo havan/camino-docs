@@ -9,7 +9,7 @@ description: This document describes how to use Remix IDE to query KYC/KYB State
 This document provides a guide on how to use [Remix IDE](https://remix.ethereum.org/) to query the KYC/KYB States of
 an address on C-Chain. Follow the steps below to accomplish this.
 
-:::tip UPDATE: NEW REPOSITORY!
+:::tip ALTERNATIVE METHOD:
 
 ### Camino Builder: KYC Examples
 

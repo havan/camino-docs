@@ -8,7 +8,7 @@ description: This guide explains the process of deploying a Smart Contract on th
 
 This guide provides instructions on deploying a sample ERC20 smart contract on the Columbus test network.
 
-:::tip UPDATE: NEW REPOSITORY!
+:::tip ALTERNATIVE METHOD:
 
 ## Camino Builder: Your Gateway to Smart Contract Development
 
