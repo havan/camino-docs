@@ -6,7 +6,7 @@ description: Use installation script for a quick and easy deployment
 
 # Camino Node Install Script
 
-We have a [shell (bash) script](https://raw.githubusercontent.com/chain4travel/camino-docs/main/scripts/camino-node-installer.sh) that installs Camino-Node on your computer. This script sets up full, running node in a matter of minutes with minimal user input required.
+We have a [shell (bash) script](https://raw.githubusercontent.com/chain4travel/camino-docs/main/scripts/caminogo-installer.sh) that installs Camino node on your computer. This script sets up full, running node in a matter of minutes with minimal user input required.
 
 ## Before you start
 

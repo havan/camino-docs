@@ -8,6 +8,15 @@ description: Node Versions Supported by Each Network
 
 The following tables provide the recommended and minimum versions for Camino Network's mainnet and testnet.
 
+:::tip NEW MAIN REPOSITORY
+
+Development has been transitioned from the
+[`camino-node`](https://github.com/chain4travel/camino-node) repository to the
+[`caminogo`](https://github.com/chain4travel/caminogo) repository as of the `v1.1.0`
+release.
+
+:::
+
 # Mainnet - Camino
 
 | Recommended Node Version | `v1.1.0` | https://github.com/chain4travel/caminogo/releases/latest     |

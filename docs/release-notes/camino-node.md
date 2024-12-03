@@ -1,34 +1,20 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # Camino-Node Releases
 
-:::note UP-TO-DATE INFORMATION
+:::warning OBSOLETE
 
-`camino-node` is under very rapid development, this page may be outdated.
+The [camino-node repository](https://github.com/chain4travel/camino-node) is
+obsolete.
 
-For more up-to-date information please check [Github Release](https://github.com/chain4travel/caminogo/releases) page.
-
-[camino-node repository](https://github.com/chain4travel/camino-node) is obsolete. All development now is done on [caminogo repository](https://github.com/chain4travel/caminogo).
+Development has been transitioned from the
+[`camino-node`](https://github.com/chain4travel/camino-node) repository to the
+[`caminogo`](https://github.com/chain4travel/caminogo) repository as of the `v1.1.0`
+release. For release notes, please refer to the [this page](./caminogo.md).
 
 :::
-
-## v1.1.0
-
-<p><span class="alert alert--info pill">Berlin Phase</span></p>
-<p><span class="alert alert--warning pill">Current Mainnet (Camino) Version</span></p>
-<p><span class="alert alert--warning pill">Current Testnet (Columbus) Version</span></p>
-
-[View on GitHub](https://github.com/chain4travel/caminogo/releases/tag/v1.1.0)
-
-- Implementation of Berlin phase
-- Berlin Timestamp for Camino is 18.12.2024 at 10:00 UTC
-- Berlin Timestamp for Columbus is 28.11.2024 at 10:00 UTC
-- New DAC voting system
-- Enhanced address states with more granular roles
-- KYB verified address state introduction
-- Multisig alias improvements
 
 ## v1.0.1
 
