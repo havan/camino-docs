@@ -10,7 +10,7 @@ sidebar_position: 1
 
 For more up-to-date information please check [Github Release](https://github.com/chain4travel/caminogo/releases) page.
 
-[camino-node repository] (https://github.com/chain4travel/camino-node) is obsolete. All development now is done on [caminogo repository] (https://github.com/chain4travel/caminogo).
+[camino-node repository](https://github.com/chain4travel/camino-node) is obsolete. All development now is done on [caminogo repository](https://github.com/chain4travel/caminogo).
 
 :::
 
