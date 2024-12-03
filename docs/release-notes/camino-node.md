@@ -30,8 +30,6 @@ For more up-to-date information please check [Github Release](https://github.com
 - KYB verified address state introduction
 - Multisig alias improvements
 
-
-
 ## v1.0.1
 
 [View on GitHub](https://github.com/chain4travel/camino-node/releases/tag/v1.0.1)
