@@ -5,14 +5,6 @@
 #stop on errors
 set -e
 
-## OBSOLETE
-## Use instead: https://github.com/chain4travel/camino-docs/blob/c4t/scripts/caminogo-installer.sh
-echo "This script is now obsolete. All development for the Camino node has been transitioned to the caminogo repository.  "
-echo
-echo "To install caminogo, use the new script available at:"
-echo "https://github.com/chain4travel/camino-docs/blob/c4t/scripts/caminogo-installer.sh"
-exit 1
-
 #running as root gives the wrong homedir, check and exit if run with sudo.
 if ((EUID == 0)); then
     echo "The script is not designed to run as root user. Please run it without sudo prefix."
@@ -104,7 +96,7 @@ then
   case $1 in
     --list) #print version list and exit (last 10 versions)
       echo "Available versions:"
-      wget -q -O - https://api.github.com/repos/chain4travel/camino-node/releases \
+      wget -q -O - https://api.github.com/repos/chain4travel/caminogo/releases \
       | grep tag_name \
       | grep -v "rc\|alpha" \
       | sed 's/.*: "\(.*\)".*/\1/' \
@@ -113,7 +105,7 @@ then
       ;;
     --list-all) #print version list including rc and alhpa releases and exit (last 10 versions)
       echo "Available versions:"
-      wget -q -O - https://api.github.com/repos/chain4travel/camino-node/releases \
+      wget -q -O - https://api.github.com/repos/chain4travel/caminogo/releases \
       | grep tag_name \
       | sed 's/.*: "\(.*\)".*/\1/' \
       | head
@@ -176,9 +168,9 @@ cd /tmp/camino-node-install
 version=${version:-latest}
 echo "Looking for $getArch version $version..."
 if [ "$version" = "latest" ]; then
-  fileName="$(curl -s https://api.github.com/repos/chain4travel/camino-node/releases/latest | grep "camino-node-linux-$getArch.*tar\(.gz\)*\"" | cut -d : -f 2,3 | tr -d \" | cut -d , -f 2)"
+  fileName="$(curl -s https://api.github.com/repos/chain4travel/caminogo/releases/latest | grep "caminogo-linux-$getArch.*tar\(.gz\)*\"" | cut -d : -f 2,3 | tr -d \" | cut -d , -f 2)"
 else
-  fileName="https://github.com/chain4travel/camino-node/releases/download/$version/camino-node-linux-$getArch-$version.tar.gz"
+  fileName="https://github.com/chain4travel/caminogo/releases/download/$version/caminogo-linux-$getArch-$version.tar.gz"
 fi
 if [[ `wget -S --spider $fileName  2>&1 | grep 'HTTP/1.1 200 OK'` ]]; then
   echo "Node version found."
@@ -194,8 +186,8 @@ echo "Attempting to download: $fileName"
 wget -nv --show-progress $fileName
 echo "Unpacking node files..."
 mkdir -p $HOME/camino-node
-tar xvf camino-node-linux*.tar.gz -C $HOME/camino-node --strip-components=1;
-rm camino-node-linux-*.tar.gz
+tar xvf caminogo-linux*.tar.gz -C $HOME/camino-node --strip-components=1;
+rm caminogo-linux-*.tar.gz
 echo "Node files unpacked into $HOME/camino-node"
 echo
 if [ "$foundCaminoNode" = "true" ]; then
