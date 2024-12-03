@@ -8,42 +8,48 @@ sidebar_position: 1
 
 `camino-node` is under very rapid development, this page may be outdated.
 
-For more up-to-date information please check [Github Release](https://github.com/chain4travel/camino-node/releases) page.
+For more up-to-date information please check [Github Release](https://github.com/chain4travel/caminogo/releases) page.
+
+[camino-node repository] (https://github.com/chain4travel/camino-node) is obsolete. All development now is done on [caminogo repository] (https://github.com/chain4travel/caminogo).
 
 :::
 
-## v1.0.0-rc1
+## v1.1.0
 
-<p><span class="alert alert--secondary pill">Pre-Release</span></p>
+<p><span class="alert alert--info pill">Berlin Phase</span></p>
+<p><span class="alert alert--warning pill">Current Mainnet (Camino) Version</span></p>
 <p><span class="alert alert--warning pill">Current Testnet (Columbus) Version</span></p>
 
-[View on GitHub](https://github.com/chain4travel/camino-node/releases/tag/v1.0.1-rc1)
+[View on GitHub](https://github.com/chain4travel/caminogo/releases/tag/v1.1.0)
+
+- Implementation of Berlin phase
+- Berlin Timestamp for Camino is 18.12.2024 at 10:00 UTC
+- Berlin Timestamp for Columbus is 28.11.2024 at 10:00 UTC
+- New DAC voting system
+- Enhanced address states with more granular roles
+- KYB verified address state introduction
+- Multisig alias improvements
+
+
+
+## v1.0.1
+
+[View on GitHub](https://github.com/chain4travel/camino-node/releases/tag/v1.0.1)
 
 - [Dependencies, Version] caminoethvm -> caminogo (Athens 1.0.1) by @evlekht
 - [[PVM] Returns pre-Athens rewardsImportTx logic for pre-Athens txs] by @evlekht
 - [[PVM, Spend] Allow spend to deposit unlocked tokens for different owner] by @evlekht
 - [[Dependency, fix] Fix state sync version (fork leftover)] by @evlekht
 
+**Full Changelog**: https://github.com/chain4travel/camino-node/compare/v1.0.0...v1.0.1
+
 ## v1.0.0
 
 <p><span class="alert alert--info pill">Athens Phase</span></p>
-<p><span class="alert alert--success pill">Current Mainnet (Camino) Version</span></p>
 
 [View on GitHub](https://github.com/chain4travel/camino-node/releases/tag/v1.0.0)
 
 - Official Athens Phase Release
-- ** Release notes same as `v1.0.0-rc1`**
-
-**Full Changelog**: https://github.com/chain4travel/camino-node/compare/v0.4.9...v1.0.0
-
-## v1.0.0-rc1
-
-<p><span class="alert alert--info pill">Athens Phase (Pre-Release)</span></p>
-<p><span class="alert alert--secondary pill">Pre-Release</span></p>
-
-[View on GitHub](https://github.com/chain4travel/camino-node/releases/tag/v1.0.0-rc1)
-
-- Athens version by @evlekht in #68
 
 **caminogo**
 
@@ -65,7 +71,7 @@ For more up-to-date information please check [Github Release](https://github.com
 - Admin API DNS Rebinding mitigation by @DerTiedemann in #62
 - Fix Validator reconnection when public IP changes
 
-**Full Changelog**: https://github.com/chain4travel/camino-node/compare/v0.4.9...v1.0.0-rc1
+**Full Changelog**: https://github.com/chain4travel/camino-node/compare/v0.4.9...v1.0.0
 
 ## v0.4.9
 
