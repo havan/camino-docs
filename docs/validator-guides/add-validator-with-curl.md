@@ -54,7 +54,7 @@ Further below, you will find instructions about how to get these information by 
 - **100,000 non-bonded CAMs** in your P-Chain wallet. And a few CAMs for paying for transaction fees.<br/>
   You can check this on the online [wallet](https://suite.camino.network/wallet) to ensure that you have at least 100,000 non-bonded tokens on the P-Chain.
 - **Consortium Member**: Your wallet address must be a consortium member.<br/>
-  If you are unsure about this, please reach out to us on [Discord](https://discord.gg/camino) for clarification. If you participated in the pre-sale, you are already a Consortium Member.
+  If you are unsure about this, please reach out to us on [Discord](https://discord.gg/camino) for clarification.
 - **KYC/KYB Verified**: You must be Know-Your-Customer (KYC) or Know-Your-Business (KYB) verified.
 
 :::note PRE-SALE PARTICIPANTS

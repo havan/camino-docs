@@ -1,5 +1,5 @@
 ---
-sidebar_position: 33
+sidebar_position: 35
 title: Renew Validation Period
 description: A guide on how to renew the validation period after expiration.
 ---
